@@ -1,0 +1,11 @@
+name: lab-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello World"
+      - name: Print good bye
+        run: echo "Done"
+      
